@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: gcr.io/devops-project-1-434509/vote:v1
+      - image: gcr.io/devops-project-1-434509/vote:v2
         name: vote
         ports:
         - containerPort: 80
